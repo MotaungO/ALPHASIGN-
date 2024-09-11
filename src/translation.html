@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation - ALPHASIGN</title>
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/alphasign-logo.png" alt="ALPHASIGN Logo">
+  </div>
+  <nav>
+    <ul class="navigation">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="spellingbee.html">Spelling Bee</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="translation">
+    <h1>ASL to Text Translation</h1>
+    <p>Use the start button below to begin recording your ASL gestures and translate them into text.</p>
+
+    <div class="video-feed">
+      <video id="video" autoplay></video>
+      <button id="startRecording">Start Recording</button>
+      <button id="stopRecording" disabled>Stop Recording</button>
+    </div>
+
+    <div class="translation-result">
+      <h3>Translation</h3>
+      <textarea id="translationText" rows="5" cols="50" readonly>Translation will appear here...</textarea>
+    </div>
+  </section>
+</main>
+
+<footer>
+
+</footer>

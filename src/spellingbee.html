@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spelling Bee - ALPHASIGN</title>
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/alphasign-logo.png" alt="ALPHASIGN Logo">
+  </div>
+  <nav>
+    <ul class="navigation">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="translation.html">Translation</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="spelling-bee">
+    <h1>ASL Spelling Bee</h1>
+    <p>Spell the word using American Sign Language, and receive feedback on your performance!</p>
+
+    <div class="spelling-bee-video">
+      <video id="spellingBeeVideo" autoplay></video>
+      <button id="startSpellingBee">Start Spelling Bee</button>
+      <button id="stopSpellingBee" disabled>Stop Spelling Bee</button>
+    </div>
+
+    <div class="spelling-results">
+      <h3>Feedback</h3>
+      <textarea id="feedbackText" rows="5" cols="50" readonly>Feedback will appear here...</textarea>
+    </div>
+  </section>
+</main>
+
+<footer>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
